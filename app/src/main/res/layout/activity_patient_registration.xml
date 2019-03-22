@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_authentication"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CureServ Lite"
+        android:textAlignment="center"
+        android:textSize="50dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="145dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_name"
+                android:hint="Name"
+                android:textSize="18sp"
+                android:inputType="text"
+                app:met_floatingLabel="highlight"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_surname"
+                android:hint="Surname"
+                android:textSize="18sp"
+                android:inputType="text"
+                app:met_floatingLabel="highlight"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_phone"
+                android:hint="Phone"
+                android:textSize="18sp"
+                android:digits="0123456789+"
+                app:met_floatingLabel="highlight"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_address"
+                android:hint="Address"
+                android:textSize="18sp"
+                android:inputType="text"
+                app:met_floatingLabel="highlight"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_birth"
+                android:hint="yyyy-mm-dd"
+                android:textSize="18sp"
+                android:digits="1234567890-"
+                app:met_floatingLabel="highlight"/>
+
+        </LinearLayout>
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/btn_conf_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm" />
+    </LinearLayout>
+
+</RelativeLayout>

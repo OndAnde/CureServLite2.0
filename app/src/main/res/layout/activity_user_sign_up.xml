@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_authentication"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CureServ Lite"
+        android:textAlignment="center"
+        android:textSize="50dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_choise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Пожалуйста выберите тип аккаунта"
+        android:layout_marginTop="170dp"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_choise"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btn_doc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Доктор" />
+
+        <Button
+            android:id="@+id/btn_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Пациент" />
+
+    </LinearLayout>
+</RelativeLayout>

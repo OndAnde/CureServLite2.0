@@ -11,17 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".patient_registration">
-
-        </activity>
-        <activity android:name=".doc_registration">
-
-        </activity>
+        <activity android:name=".user_sign_up"></activity>
+        <activity android:name=".patient_registration" />
+        <activity android:name=".doc_registration" />
         <activity android:name=".surveys" />
         <activity android:name=".card" />
         <activity android:name=".user_interface" />
         <activity android:name=".doctor_interface" />
-        <activity android:name=".user_sign_up" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

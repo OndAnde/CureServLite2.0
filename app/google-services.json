@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1087121857177-33s9enr20qksfrvf7avvfngc6tm9htlr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ondande.cureservlite",
+            "certificate_hash": "79523e69f0d9fc66164cc8d22df7068832bafe48"
+          }
+        },
+        {
           "client_id": "1087121857177-a1et5lp2ouhompi7pkvrha2j22jcm5uj.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087121857177-a1et5lp2ouhompi7pkvrha2j22jcm5uj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
